@@ -20,4 +20,9 @@ Vypinanie server: press q + enter to quit
 
 server will start at http://localhost:4200/ endpoint
 
+-remove all lines in app.component.html   and write:
+<h1>Car Rental System</h1>
+
+
+
 
