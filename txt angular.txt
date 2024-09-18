@@ -23,6 +23,87 @@ server will start at http://localhost:4200/ endpoint
 -remove all lines in app.component.html   and write:
 <h1>Car Rental System</h1>
 
+# Module creating in cmd:    // ng= angular, g = generate, m = module,  package manager/ module name = modules/admin  
+ C:\Users\Admin\Desktop\Projects Fullstack\Car_Rental\car_rental_angular>
+1 ng g m modules/admin --routing=true
+2 ng g m modules/customer --routing=true
+
+# Component creating in cmd:
+create in modules/admin new folder components and go there in terminal:
+C:\Users\Admin\Desktop\Projects Fullstack\Car_Rental\car_rental_angular\src\app\modules\admin\components
+ng g c admin-dashboard      //c = component
+
+# Service creating in cmd:
+create in modules/admin/services new folder services and go there in terminal:
+C:\Users\Admin\Desktop\Projects Fullstack\Car_Rental\car_rental_angular\src\app\modules\admin\services>
+ng g s admin      // ng generate service with name admin 
+_____________________________________________________________
+
+Create folder inside modules/customer with name service
+ng g c customer-dashboard    in: C:\Users\Admin\Desktop\Projects Fullstack\Car_Rental\car_rental_angular\src\app\modules\customer\components>ng g c customer-dashboard
+ng g c customer-dashboard
+
+C:\Users\Admin\Desktop\Projects Fullstack\Car_Rental\car_rental_angular\src\app\modules\customer\service>ng g s customer
+ng g s customer
+________________________________________
+AUTH
+create folder   C:\Users\Admin\Desktop\Projects Fullstack\Car_Rental\car_rental_angular\src\app\auth  
+create folder  C:\Users\Admin\Desktop\Projects Fullstack\Car_Rental\car_rental_angular\src\app\auth\components>
+
+open C:\Users\Admin\Desktop\Projects Fullstack\Car_Rental\car_rental_angular\src\app\auth\components>  with integrated terminal !!
+
+C:\Users\Admin\Desktop\Projects Fullstack\Car_Rental\car_rental_angular\src\app\auth\components>ng g c login
+ng g c login
+
+C:\Users\Admin\Desktop\Projects Fullstack\Car_Rental\car_rental_angular\src\app\auth\components>ng g c signup
+ng g c signup
+
+create folder services an open in integrated terminal: C:\Users\Admin\Desktop\Projects Fullstack\Car_Rental\car_rental_angular\src\app\auth\services>
+
+C:\Users\Admin\Desktop\Projects Fullstack\Car_Rental\car_rental_angular\src\app\auth\services>ng g s auth/auth
+ng g s auth/auth
+
+C:\Users\Admin\Desktop\Projects Fullstack\Car_Rental\car_rental_angular\src\app\auth\services>ng g s storage/storage
+ng g s storage/storage
+__________________________________________________
+NG ZORO installing
+https://ng.ant.design/docs/getting-started/en
+
+
+cd C:\Users\Admin\Desktop\Projects Fullstack\Car_Rental\car_rental_angular>ng add ng-zorro-antd
+$ ng add ng-zorro-antd 
+
+then click y as Yes for this message:
+The package ng-zorro-antd@18.1.1 will be installed and executed.
+Would you like to proceed? (Y/n) y
+? Enable icon dynamic loading [ Detail: https://ng.ant.design/components/icon/en ]
+ yes
+? Set up custom theme file [ Detail: https://ng.ant.design/docs/customize-theme/en
+ ] yes
+? Choose your locale code: en_US
+? Choose template to create project: blank  
+
+tehen open http://localhost:4200/
+and it show some logo 
+_______________________________________________________________________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
