@@ -1,0 +1,9 @@
+https://start.spring.io/
+	Car_Rentel_Spring
+	Dep.:
+		Spring Web
+		Spring Data JPA
+		Lombok 
+		MySQL Driver 
+			Spring Boot DevTools
+

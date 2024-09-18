@@ -1,0 +1,23 @@
+Nside folder in cmd:
+npm install -g @angular/cli
+	ng version
+ng new my-angular-project / ng new car_rental_angular
+
+? Which stylesheet format would you like to use?
+	[> Sass (SCSS)     [ https://sass-lang.com/documentation/syntax#scss  ]  
+
+Do you want to enable Server-Side Rendering (SSR) and Static Site Generation
+	(SSG/Prerendering)? yes
+
+Open it in WScode //cmd: code . 
+
+Click on header ... as Terminal->NewTerminal and ng serve
+	v teminali WSC treba zadat "Set-ExecutionPolicy RemoteSigned -Scope CurrentUser "  aby islo spustit ng serve
+
+
+Spustanie  servera v cmd : ng serve
+Vypinanie server: press q + enter to quit
+
+server will start at http://localhost:4200/ endpoint
+
+
